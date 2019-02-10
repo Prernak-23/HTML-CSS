@@ -1,0 +1,274 @@
+<div class="outer_header">
+<div class="header">
+<div class="header_left">
+	<a href="">to the new</a>
+</div>
+<div class="header_right">
+	<a href="">home</a>
+	<a href="">quick help</a>
+</div>
+</div>
+</div><hr>
+<div class="form_outer">
+	<div class="heading">bug report
+	</div>
+	<div class="form_inner">
+	<div class="title">
+			<span>Title *</span>
+			<input type="text">
+		</div>
+		<div class="description">
+			<span>Description *</span>
+			<textarea>
+			</textarea>
+		</div>
+		<div class="operation_system">
+			<span>Operation System *</span>
+			<select>
+				<option>windows Xp</option>
+				<option>windows 7</option>
+				<option>windows 8</option>
+				<option>windows 10</option>
+			</select>
+		</div>
+		<div class="product">
+			<span>Product *</span>
+			<select>
+				<option>Formoid</option>
+			</select>
+		</div>
+		
+		<div class="version">
+			<span>Version *</span>
+				<input type="text">
+		</div>
+		<div class="license_outer">
+			<div class="lisence">
+				license:
+				<br>
+				<input type="radio">Free
+			</div>
+			<div class="input2">
+				<br>
+				<input type="radio">Business
+			</div>
+            </div>	
+            <div class="severity">
+			<span>Severity *</span>
+			<select>
+				<option>Critical</option>
+				<option>high</option>
+			</select>
+		</div>
+		<div class="attachments">
+			<span>Attachments:</span>
+			<input type="file">	
+		</div>
+	</div>
+		<div class="footer">
+			<button>send</button>
+		</div>
+	</div>
+<style>
+body
+{
+	margin:0;
+}
+.outer_header
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+hr
+{
+	margin-left: 35px;
+    margin-right:35px;
+}
+.header
+{
+	display:flex;
+	
+}	
+.header a
+{
+	color:#34bc99;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana;
+	text-transform: capitalize;
+}
+.header > .header_left
+{
+	width: 50%;	
+
+}
+.header > .header_right
+{
+	
+	text-align:right;
+	width: 50%;	
+}
+.form_outer
+{
+	width: 30%;
+	margin: 4% auto;
+	border:2px solid silver;
+	border-radius:10px;
+
+}
+.form_outer > .heading
+{
+	padding: 10px;
+	background: #BDC3CA;
+	color:white;
+	font-size: 120%;
+	text-transform: capitalize;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+}
+
+.form_outer >.form_inner
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.form_inner >.Title >span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.Title >input
+{
+	border:2px solid grey;
+	display: block;
+	border-radius: 3px;
+	padding: 1%;
+	width: 80%;
+	margin-bottom: 1%;
+}
+.form_inner >.description >span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.description >textarea
+{
+	border-radius: 3px;
+	display: block;
+	border:2px solid grey;
+	width: 80%;
+	height: 50px;
+	margin-bottom: 1%;
+}
+.form_inner >.operation_system>span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner>.operation_system >select
+{
+	display: block;
+	width: 80%;
+	padding:1%;
+	background: #34bc99;
+	color:white;
+	text-transform: uppercase;
+	margin-bottom:1%;
+}
+.form_inner >.operation_system >select>option
+{
+}
+.form_inner >.product >span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.product >select
+{
+	display: block;
+	width: 80%;
+	padding:1%;
+	background: #34bc99;
+	color:white;
+	text-transform: uppercase;
+	margin-bottom:1%;
+}
+.form_inner >.version >span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.version >input
+{
+	border:2px solid grey;
+	display: block;
+	border-radius: 3px;
+	padding: 1%;
+	width: 20%;
+	margin-bottom: 1%;
+}
+.form_inner >.license_outer
+{
+	display: flex;
+}
+.form_inner >.license_outer >.license
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner>.license_outer >.input2>input
+{
+margin-left: 70px;
+}
+.form_inner >.severity>span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.severity>select
+{
+	display: block;
+	width: 80%;
+	padding:1%;
+	background: #34bc99;
+	color:white;
+	text-transform: uppercase;
+	margin-bottom:1%;
+}	
+.form_inner >.attachments >span
+{
+	margin-top: 1%;
+	margin-bottom:2%;
+}
+.form_inner >.attachments >input
+{
+	
+    display: block;
+	height: 20px;
+	text-align: left !important;
+}
+.form_outer >.footer
+{
+	margin-top: 3%;
+	padding: 10px;
+	background:#EDEFF1;
+	text-align: right;
+}
+.form_outer >.footer>button
+{
+	padding: 4px;
+	background: #34bc99;
+	color:white;
+	border:0;
+	font-weight: bold;
+	border-radius: 4px;
+	font-size: 101%;
+	padding: 14px;
+}
+</style>
+
+	
